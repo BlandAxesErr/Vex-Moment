@@ -95,6 +95,9 @@ Drivetrain.driveFor(reverse, 1100, mm);
 void usercontrol(void) {
 // User control code here, inside the loop
 while (1) {
+// This is the main execution loop for the user control program.
+// Each time through the loop your program should update motor + servo
+// values based on feedback from the joysticks.
 
 // ........................................................................
 // Insert user code here. This is where you use the joystick values to
